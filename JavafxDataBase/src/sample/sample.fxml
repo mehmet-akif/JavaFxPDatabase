@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="308.0" prefWidth="569.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="600.0" minWidth="10.0" prefWidth="449.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="600.0" minWidth="10.0" prefWidth="151.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="304.3999847412109" minHeight="10.0" prefHeight="304.3999847412109" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <TableView fx:id="table" editable="true" onMouseClicked="#clickItem" prefHeight="400.0" prefWidth="279.0" tableMenuButtonVisible="true">
+        <columns>
+          <TableColumn fx:id="no" prefWidth="50.0" text="No" />
+          <TableColumn fx:id="nameSurname" prefWidth="200.0" text="NameSurname" />
+            <TableColumn fx:id="department" prefWidth="200.0" text="Department" />
+        </columns>
+      </TableView>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
+         <children>
+            <Button fx:id="btnAdd" mnemonicParsing="false" onAction="#addStudent" text="Add" />
+            <Button fx:id="btnUpdate" mnemonicParsing="false" onAction="#updateTable" text=" Update Table" />
+            <Button fx:id="btnDelete" mnemonicParsing="false" onAction="#deleteStudent" text="Delete" />
+         </children>
+      </VBox>
+   </children>
+</GridPane>
