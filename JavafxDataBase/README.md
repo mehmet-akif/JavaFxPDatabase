@@ -5,7 +5,7 @@ Contributers,
 Ahmet Hamza Kozal,
 Mehmet Akif Sipahi
 
-Youtube: https://www.youtube.com/watch?v=PyuarRuTTpk&feature=youtu.be
+
 
 drive 1: https://drive.google.com/file/d/1kRQDgAQ-R7M483W87zzllPrEQVTcGaKM/view
 
